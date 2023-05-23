@@ -1,5 +1,9 @@
 <script lang="ts">
   import "iapau-components/iapau-button";
+  import HoverIcon from "../lib/HoverIcon.svelte";
+  import linkedin from "remixicon/icons/Logos/linkedin-fill.svg"
+  import mail from "remixicon/icons/Business/mail-fill.svg"
+  import facebook from "remixicon/icons/Logos/facebook-fill.svg"
 </script>
 
 <div
@@ -26,7 +30,7 @@
     />
   </div>
 </div>
-<div style="height: 80vh" class="column-center">
+<div style="height: 600px" class="column-center">
   <h1 style="color: var(--iapau-color-bg-primary); font-size: 3rem">IA PAU</h1>
   <p style="font-weight: 300; font-size: 1.3rem; text-align:center">
     L’association IA PAU rassemble dans la bonne humeur <br />
@@ -41,6 +45,11 @@
     <br/>
     scientifiques, technologiques, éthiques, et démocratiques.<br />
   </p>
+  <div style="display:flex; width: 50%; justify-content: space-evenly; height: min(45px, 10vh); margin-top: 1rem">
+    <HoverIcon href="https://fr.linkedin.com/company/ia-pau" logo={linkedin} />
+    <HoverIcon href="https://iapau.org/contact/" logo={mail} />
+    <HoverIcon href="https://www.facebook.com/IA-Pau-1494793403982576/?__xts__[0]=68.ARDOq4I4L0WvUT0kqdblc1P_L2uITLG-XGleZvuM_wIs6FuGYU3rcmhGZlsgo6dvZORji6E_WPOfEvA8YvvTw8Cy6e8yAbqbA2PbyW380s-J4LRXrurT7GaSpWbl9ByP0-XauAjmN_Y3XQDxOwSuE3pc2DNTJDtAAsozxUl1-NjHn1Mwz25dMA" logo={facebook} />
+  </div>
 </div>
 
 <style>

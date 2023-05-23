@@ -14,7 +14,23 @@
 
   let current_page: string;
   $: current_page = $page.url.pathname;
+
+  function page_name(curr: string) {
+    let res = "IA PAU";
+    console.log(curr)
+    pages.forEach((p) => {
+      if (p[1] == curr) {
+        res = p[0];
+      }
+    });
+
+    return res;
+  }
 </script>
+
+<svelte:head>
+  <title>{page_name(current_page)}</title>
+</svelte:head>
 
 <header
   style="
@@ -86,7 +102,7 @@
   :global(.link) {
     text-decoration: none;
     text-decoration-skip-ink: auto;
-    color:inherit;
+    color: inherit;
   }
 
   .link:hover {
