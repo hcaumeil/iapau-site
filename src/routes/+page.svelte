@@ -121,11 +121,10 @@ background-size: 100% 100px;"
   />
   <h1 style="margin-top: 40px  ">Découvrez notre écosystème</h1>
 
-
   <div
-    style="display:flex; align-items: center; margin: 5vh 0; justify-content: space-evenly; width: auto; padding: 0px 10vw; gap: 20px;"
+    style="display:flex; align-items: center; margin: 5vh 0; justify-content: space-evenly; width: auto; padding: 0px 10vw; gap: 2rem;"
   >
-    <PageCard title="Nos évènements">
+    <PageCard title="Nos évènements" href="/events">
       <img
         slot="header"
         style="height: 100%; width: 100%;"
@@ -138,30 +137,28 @@ background-size: 100% 100px;"
         plus que vous !
       </p>
     </PageCard>
-    <PageCard title="Nos évènements">
+    <PageCard title="Nos archives">
       <img
         slot="header"
         style="height: 100%; width: 100%;"
         src="/img/our_archives.jpeg"
       />
       <p slot="content">
-        Prochain festival, prochain Meetup <br /> ou prochain Data Challenge ?
-        <br />
-        Tous les évènements à venir<br /> d’IA Pau sont par ici, et <br /> n’attendent
-        plus que vous !
+        Vous avez manqué un évènement ? <br /> Vous souhaitez vous rappeler les
+        bons moments passés avec IA Pau ?<br /> C’est par ici ! <br /> Découvrez
+        nos archives et nos galeries !
       </p>
     </PageCard>
-    <PageCard title="Nos évènements">
+    <PageCard title="Nous découvrir">
       <img
         slot="header"
         style="height: 100%; width: 100%;"
         src="/img/discover_us.jpg"
       />
       <p slot="content">
-        Prochain festival, prochain Meetup <br /> ou prochain Data Challenge ?
-        <br />
-        Tous les évènements à venir<br /> d’IA Pau sont par ici, et <br /> n’attendent
-        plus que vous !
+        Et si on parlait d’IA Pau ? L’association <br /> organise des évènements
+        grâce à ses <br /> membres, impliqués et rassemblés pour <br />
+        faciliter l’accès au savoir et aux <br /> connaissances sur l’IA.
       </p>
     </PageCard>
   </div>
@@ -170,6 +167,9 @@ background-size: 100% 100px;"
   background-size: 100% 45px;
   height: 45px; width:100%;"
   />
+</div>
+<div style="height: 60vh;" class="column-center">
+  <h1>Ils soutiennent IA Pau</h1>
 </div>
 
 <style>

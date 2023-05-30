@@ -2,11 +2,12 @@
   export let href: string;
   export let logo: string;
   export let size: string = "35px";
+  export let hover = true;
 </script>
 
-<a {href}>
+<a {href} class={hover ? "hover" : ""}>
   <div
-    class="logo"
+
     style="height: {size}; width: {size}; mask: url({logo}) no-repeat center; -webkit-mask: url({logo}) no-repeat center;"
   />
 </a>
@@ -23,7 +24,7 @@
     transition: 0.3s ease;
   }
 
-  a:hover {
+  .hover:hover {
     background-color: var(--iapau-color-bg-primary);
   }
 
@@ -34,7 +35,7 @@
     height: 100%;
   }
 
-  a:hover > div {
+  .hover:hover > div {
     background-color: var(--iapau-color-bg-default);
   }
 </style>
