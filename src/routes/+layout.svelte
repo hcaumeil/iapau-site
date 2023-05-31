@@ -55,7 +55,7 @@
         </iapau-link>
       {/each}
     </div>
-    <iapau-button>Data Challenges</iapau-button>
+    <iapau-button><a href="/account">Data Challenges</a></iapau-button>
   </div>
 </header>
 
@@ -124,5 +124,10 @@
     font-family: "Montserrat";
     src: url("/fonts/Montserrat-Bold.ttf");
     font-weight: bold;
+  }
+
+  a {
+    text-decoration: none;
+    color: var(--ia-pau-bg-default)
   }
 </style>
