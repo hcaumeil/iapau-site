@@ -3,7 +3,7 @@
 </script>
 
 <div
-  style="height: 50vh;  background-position: 50%;
+  style="height: 400px;  background-position: 50%;
   background-size: cover;
   background-image: radial-gradient(circle at top right,rgba(255,255,255,0) 20%,#0e8769 100%),url(/img/archives.jpg) !important;"
   class="column-center"

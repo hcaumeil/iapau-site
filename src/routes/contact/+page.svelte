@@ -16,7 +16,7 @@
 </script>
 
 <div
-  style="height: 75vh; 
+  style="height: 500px; 
   background-position: center top;
   background-image: radial-gradient(circle at top right,rgba(255,255,255,0) 20%,#0e8769 100%),url(/img/our_events.jpg) !important;"
   class="column-center"
@@ -44,7 +44,7 @@
     </div>
   </div>
   <div
-    style="height: 50px; width: 100%; transform: scale(-1,1); background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwJSIgaGVpZ2h0PSI1MHB4IiB2aWV3Qm94PSIwIDAgMTI4MCAxNDAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGcgZmlsbD0iI2VkZWZmYSI+PHBhdGggZD0iTTEyODAgMGwtMjYyLjEgMTE2LjI2YTczLjI5IDczLjI5IDAgMCAxLTM5LjA5IDZMMCAwdjE0MGgxMjgweiIvPjwvZz48L3N2Zz4=);
+    style="height: 50px; width: 100%; transform: scale(-1,1); background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwJSIgaGVpZ2h0PSI1MHB4IiB2aWV3Qm94PSIwIDAgMTI4MCAxNDAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGcgZmlsbD0iI2ZmZmZmZiI+PHBhdGggZD0iTTEyODAgMGwtMjYyLjEgMTE2LjI2YTczLjI5IDczLjI5IDAgMCAxLTM5LjA5IDZMMCAwdjE0MGgxMjgweiIvPjwvZz48L3N2Zz4=);
 background-size: 100% 50px;"
   />
 </div>
