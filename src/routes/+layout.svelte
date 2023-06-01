@@ -6,14 +6,15 @@
 
   const pages = [
     ["Accueil", "/"],
-    ["L'association IA Pau", "/iapau"],
-    ["Prochains événements", "/events"],
-    ["Archives", "/archives"],
-    ["Contact", "/contact"],
+    ["L'association IA Pau", "/iapau/"],
+    ["Prochains événements", "/events/"],
+    ["Archives", "/archives/"],
+    ["Contact", "/contact/"],
   ];
 
   let current_page: string;
   $: current_page = $page.url.pathname;
+  console.log(current_page)
 
   function page_name(curr: string) {
     let res = "IA PAU";
